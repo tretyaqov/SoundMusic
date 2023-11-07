@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import './Genre.css'
 import { CardGroup, Container, Card, Row, Col } from "react-bootstrap";
+import rappicture from '../Components/Pictures/rap.png'
+import rockpicture from '../Components/Pictures/rock.png'
 
 export default class Genre extends Component {
     render() {
@@ -10,11 +12,11 @@ export default class Genre extends Component {
                     <div className="centered-genre">
                         <img
                             className="genre-img"
-                            src="https://via.placeholder.com/400x400"
+                            src={rappicture}
                         />
                         <img
                             className="genre-img"
-                            src="https://via.placeholder.com/520x520"
+                            src={rockpicture}
                         />
                         <img
                             className="genre-img"
