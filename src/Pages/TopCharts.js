@@ -25,7 +25,10 @@ export default class TopCharts extends Component {
                     </div>
                 </div>
                 <div className="row_motm">
-                    <p>Исполнители месяца</p>
+                    <p className="string_motm">Исполнители месяца</p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
                 </div>
                 <div className="row_sotm">
                     

@@ -68,14 +68,33 @@
 .row_motm { /*Ряд "Исполнителей месяца"*/
     margin-top: 45px;
     margin-left: 7.8125%;
+    font-family: 'Noto Sans'; 
 }
 
+.string_motm { /*Строка "Исполнителей месяца"*/
+    color: #110F0F;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.motm-img { 
+
+}
 
 .row_sotm { /*Ряд "Песни месяца"*/
     
 }
 
+.string_sotm { /*Строка "Песни месяца"*/
+
+}
+
 .row_aotm { /*Ряд "Альбомы месяца"*/
     
+}
+
+.string_aotm { /*Строка "Альбомы месяца"*/
+
 }
