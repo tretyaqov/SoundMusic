@@ -39,7 +39,7 @@ export default class Login extends Component {
                         <Form.Control
                             className="password-textbox"
                             type="password"
-                            placeholder="example_password" 
+                            placeholder="********" 
                         />
                         <Button
                             className="button"
