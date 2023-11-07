@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import './TopCharts.css'
 import moty_img from '../Components/Pictures/ava.png' /*импорт картинки исполнителя года*/
 import star_img from '../Components/Pictures/star.png' /*импорт картинки звёздочки*/
-import motm_img from '../Components/Pictures/oleg.png' /*импорт олега*/
+import oleg_img from '../Components/Pictures/oleg.png' /*импорт олега*/
+import scripto_img from '../Components/Pictures/scripto.png' /*импорт скриптонита*/
+import jizus_img from '../Components/Pictures/jisuz.png' /*импорт олега*/
 
 export default class TopCharts extends Component {
     render() {
@@ -30,6 +32,78 @@ export default class TopCharts extends Component {
                     <p className="string_sotm ">Песни месяца</p> 
                     <p className="string_aotm">Альбомы месяца</p>
                     <div className="line"></div> 
+                </div>
+                
+                <div className="flex">
+                    <div className="chill">
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={oleg_img}
+                            />
+                            <div className="text">ЛСП</div>
+                        </div>
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={scripto_img}
+                            />
+                            <div className="text">СКРИПТОНИТ</div>
+                        </div>
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={jizus_img}
+                            />
+                            <div className="text">ДЖИЗУС</div>
+                        </div>
+                    </div>
+                <div className="chill">
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={oleg_img}
+                            />
+                            <div className="text">ЛСП</div>
+                        </div>
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={scripto_img}
+                            />
+                            <div className="text">СКРИПТОНИТ</div>
+                        </div>
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={jizus_img}
+                            />
+                            <div className="text">ДЖИЗУС</div>
+                        </div>
+                    </div>
+                    <div className="chill">
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={oleg_img}
+                            />
+                            <div className="text">ЛСП</div>
+                        </div>
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={scripto_img}
+                            />
+                            <div className="text">СКРИПТОНИТ</div>
+                        </div>
+                        <div className="row_motm">
+                            <img
+                                className="motm-img"
+                                src={jizus_img}
+                            />
+                            <div className="text">ДЖИЗУС</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="row_sotm">
                     

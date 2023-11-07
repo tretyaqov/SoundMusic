@@ -10,9 +10,9 @@
 
 .position1{ /*класс области "Исполнитель года"*/
     display: flex;
+    align-items: center;
     margin-top: 5.5%;
     margin-left: 7.8125%;
-    align-items: center;
 }
 
 .star-img { /*класс звёздочки*/
@@ -78,7 +78,7 @@
     font-family: 'Noto Sans'; /*указание шрифта*/
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #110F0F;
     font-size: 25px;
     font-style: normal;
@@ -87,17 +87,50 @@
 }
 
 .string_motm { /*Строка "Исполнителей месяца"*/
-    margin-left: 7.8125%;
+  
 }
-.string_sotm {
+.string_sotm { /*Строка "Песен месяца"*/
     justify-content: center;
 }
 
-.string_aotm {
-    margin-right: 7.8125%;
+.string_aotm { /*Строка "Альбомов месяца"*/
+ 
+}
+
+.row_motm{
+    margin-top: 3.5%;
+    margin-left: 7.8125%;
+    display: flex;
+    align-items: center;
+}
+.row_sotm{
+
+}
+.row_aotm{
+
+}
+
+.text{
+    margin-left: 36px;
+    color: #110F0F;
+    font-family: 'Noto Sans';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
 }
 
 .motm-img { 
     width: 80px;
     height: 80px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5%;
+}
+.chill {
+    margin-left: 10%;
+    margin-right: 10%;
 }
