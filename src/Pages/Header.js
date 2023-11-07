@@ -14,7 +14,9 @@ import TopCharts from '../Pages/TopCharts';
 import New from '../Pages/New';
 import Genre from '../Pages/Genre';
 import Favorite from '../Pages/Favorite';
-import Account from '../Pages/Registration';
+import Account from '../Pages/Account';
+import Login from "./Login";
+import Registration from "../Pages/Registration";
 
 export default class Header extends Component {
     render() {
@@ -56,7 +58,7 @@ export default class Header extends Component {
                                     alt="Search"
                                  />
                             </Button>
-                            <Button className="login" href="/account">
+                            <Button className="login" href="/register">
                             <img
                                 id='account-icon'
                                 className="clicked-icons"
@@ -80,6 +82,8 @@ export default class Header extends Component {
                     <Route exact path='/genre' element={<Genre />} />
                     <Route exact path='/favorite' element={<Favorite />} />
                     <Route exact path='/account' element={<Account />} />
+                    <Route exact path='/register' element={<Registration />} />
+                    <Route exact path='/login' element={<Login />} />
                 </Routes>
             </Router>
         </>

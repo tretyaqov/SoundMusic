@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import './Genre.css'
 import { CardGroup, Container, Card, Row, Col } from "react-bootstrap";
-import rappicture from '../Components/Pictures/rap.png'
-import rockpicture from '../Components/Pictures/rock.png'
+import rappicture from '../Components/Pictures/Darkly - pod etimi zvyozdami.png'
+import rockpicture from '../Components/Pictures/GONE fludd - dreamgarden.png'
 
 export default class Genre extends Component {
     render() {
