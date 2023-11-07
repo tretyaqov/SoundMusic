@@ -1,0 +1,28 @@
+.indentation {
+    margin-top: 4%;
+}
+.genre-img {
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 16%;
+    height: 16%;
+}
+
+.genre-bg {
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.8;
+    background: #110F0F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+
+.centered-genre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 

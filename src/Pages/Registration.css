@@ -1,0 +1,75 @@
+.fon{
+    position: absolute;
+    z-index: -50;
+    top:0px;
+}
+.fonreg{
+    color: #232323; 
+    background-color: #232323;
+}
+.box {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+    z-index: -5;
+    width: 460px;
+    height: 560px;
+}
+.reg_form {
+    margin-bottom: 10%;
+    color: #232323;
+    font-family: 'Noto Sans';
+    size: 28px;
+    font-weight: 600;
+}
+.name1 {
+    margin-top: 10%;
+    color: #232323;
+    font-family: 'Noto Sans';
+    size: 30px;
+    font-weight: 600;
+}
+.name2 {
+    height: 40px;
+    width: 300px;
+}
+.address1 {
+    margin-top: 10%;
+    color: #232323;
+    font-family: 'Noto Sans';
+    size: 30px;
+    font-weight: 600;
+}
+.address2 {
+    height: 40px;
+    width: 300px;
+}
+.password1 {
+    margin-top: 10%;
+    color: #232323;
+    font-family: 'Noto Sans';
+    size: 30px;
+    font-weight: 600;
+}
+.password2 {
+    height: 40px;
+    width: 300px;
+}
+.button {
+    background-color: #8B91CC;
+    margin-top: 10%;
+    height: 40px;
+    width: 300px;
+    border: 0px;
+}
+.centered{
+    background: ffffff;
+    margin-top: 15%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-link{
+    color: #4E4E4E;
+}

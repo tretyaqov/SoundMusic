@@ -1,0 +1,6 @@
+.div {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    /* Дополнительные стили */
+}
