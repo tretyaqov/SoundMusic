@@ -7,7 +7,7 @@ import './Header.css'
 //Картинки
 import logo from '../Components/Pictures/logo.png';
 import search_icon from '../Components/Pictures//search.png'
-import avatar from '../Components/Pictures//avatar.png'
+import avatar from '../Components/Pictures//avatar.svg'
 //Страницы
 import Home from '../Pages/Home';
 import TopCharts from '../Pages/TopCharts';
@@ -43,7 +43,7 @@ export default class Header extends Component {
                             <Nav.Link className="navlink" href="/new"> Новинки </Nav.Link>
                             <Nav.Link className="navlink" href="/topcharts"> Топ чартов </Nav.Link>
                             <Nav.Link className="navlink" href="/genre"> Жанры </Nav.Link>
-                            <Nav.Link className="navlin px-5" href="/favorite"> Мой плейлист </Nav.Link>
+                            <Nav.Link className="navlink" href="/favorite"> Мой плейлист </Nav.Link>
                         </Nav>
                         <Form className='d-flex' >
                             <input
