@@ -1,0 +1,81 @@
+/*moty - musican of the year(исполнитель года)*/
+/*motm - musicans of the month(исполнители месяца)*/
+/*sotm - songs of the month(песни месяца)*/
+/*aotm - albums of the month()*/
+
+.moty-img { /*класс картинки исполнителя года*/
+    width: 250px;
+    height: 250px;
+}
+
+.position1{ /*класс области "Исполнитель года"*/
+    display: flex;
+    margin-top: 5.5%;
+    margin-left: 7.8125%;
+    align-items: center;
+}
+
+.star-img { /*класс звёздочки*/
+    position:relative;
+    margin-left: 13px;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    top: -5%;
+}
+
+.moty-txt { /*класс текста(информация об исполнителе*/
+    margin-left: 70px;
+    font-family: 'Noto Sans'; 
+}
+
+.string_moty {
+    color: #585858;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: -0.5%;
+}
+
+.string_musican {
+    color: #110F0F;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: -0.5%;
+}
+
+.string_plays {
+    color: #585858;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: -0.5%;
+}
+
+.string_counter {
+    color: #110F0F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: -0.5%;
+}
+
+.row_motm { /*Ряд "Исполнителей месяца"*/
+    margin-top: 45px;
+    margin-left: 7.8125%;
+}
+
+
+
+.row_sotm { /*Ряд "Песни месяца"*/
+    
+}
+
+.row_aotm { /*Ряд "Альбомы месяца"*/
+    
+}
