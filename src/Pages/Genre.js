@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import './Genre.css'
 import { CardGroup, Container, Card, Row, Col } from "react-bootstrap";
-import rappicture from '../Components/Pictures/rap.png'
-import rockpicture from '../Components/Pictures/rock.png'
-import poppicture from '../Components/Pictures/pop.png'
-import drillpicture from '../Components/Pictures/drill.png'
-import fonkpicture from '../Components/Pictures/fonk.png'
-import dabsteppicture from '../Components/Pictures/dabstep.png'
-import classikapicture from '../Components/Pictures/classika.png'
-import djaspicture from '../Components/Pictures/djas.png'
+import rappicture from '../Components/Pictures/Genre/rap.png'
+import rockpicture from '../Components/Pictures/Genre/rock.png'
+import poppicture from '../Components/Pictures/Genre/pop.png'
+import drillpicture from '../Components/Pictures/Genre/drill.png'
+import fonkpicture from '../Components/Pictures/Genre/fonk.png'
+import dabsteppicture from '../Components/Pictures/Genre/dabstep.png'
+import classikapicture from '../Components/Pictures/Genre/classika.png'
+import djaspicture from '../Components/Pictures/Genre/djas.png'
 
 export default class Genre extends Component {
     render() {

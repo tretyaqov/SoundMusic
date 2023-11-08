@@ -77,7 +77,7 @@ export default class Header extends Component {
             <Router>
                 <Routes>
                     <Route exact path='/' element={<Home />} />
-                    <Route exact path='/new' element={<New />} />
+                    <Route exact path='/new' element={<Home />} />
                     <Route exact path='/topcharts' element={<TopCharts />} />
                     <Route exact path='/genre' element={<Genre />} />
                     <Route exact path='/favorite' element={<Favorite />} />
