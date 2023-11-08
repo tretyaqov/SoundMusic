@@ -77,19 +77,18 @@
     margin-top: 45px;
     font-family: 'Noto Sans'; /*указание шрифта*/
     display: flex;
-    justify-content: space-around;
-    color: #110F0F;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-right: 5%;
+    justify-content: center;
 }
 
 .string_text { 
     margin-left: 9%;
     margin-right: 9%;
     width: 300px;
+    color: #110F0F;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .rows{
