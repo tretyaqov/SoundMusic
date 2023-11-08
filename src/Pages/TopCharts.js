@@ -4,7 +4,13 @@ import moty_img from '../Components/Pictures/ava.png' /*импорт карти�
 import star_img from '../Components/Pictures/star.png' /*импорт картинки звёздочки*/
 import oleg_img from '../Components/Pictures/oleg.png' /*импорт олега*/
 import scripto_img from '../Components/Pictures/scripto.png' /*импорт скриптонита*/
-import jizus_img from '../Components/Pictures/jisuz.png' /*импорт олега*/
+import jizus_img from '../Components/Pictures/jisuz.png' /*импорт джизус*/
+import oversize_img from '../Components/Pictures/mudblood.png'
+import molchi_img from '../Components/Pictures/shut_up.png'
+import fool_img from '../Components/Pictures/fool.png'
+import my_name_lida_img from '../Components/Pictures/my_name_lida.png'
+import mudblood_img from '../Components/Pictures/mudblood.png'
+import hattori_img from '../Components/Pictures/hattori.png'
 
 export default class TopCharts extends Component {
     render() {
@@ -28,78 +34,78 @@ export default class TopCharts extends Component {
                     </div>
                 </div>
                 <div className="string_colums">
-                    <p className="string_motm ">Исполнители месяца</p> 
-                    <p className="string_sotm ">Песни месяца</p> 
-                    <p className="string_aotm">Альбомы месяца</p>
+                    <p className="string_text">Исполнители месяца</p> 
+                    <p className="string_text">Песни месяца</p> 
+                    <p className="string_text">Альбомы месяца</p>
                     <div className="line"></div> 
                 </div>
                 
                 <div className="flex">
-                    <div className="chill">
-                        <div className="row_motm">
+                    <div className="rows1">
+                        <div className="rows">
                             <img
-                                className="motm-img"
+                                className="rows-img"
                                 src={oleg_img}
                             />
                             <div className="text">ЛСП</div>
                         </div>
-                        <div className="row_motm">
+                        <div className="rows">
                             <img
-                                className="motm-img"
+                                className="rows-img"
                                 src={scripto_img}
                             />
                             <div className="text">СКРИПТОНИТ</div>
                         </div>
-                        <div className="row_motm">
+                        <div className="rows">
                             <img
-                                className="motm-img"
+                                className="rows-img"
                                 src={jizus_img}
                             />
                             <div className="text">ДЖИЗУС</div>
                         </div>
                     </div>
-                <div className="chill">
-                        <div className="row_motm">
+                    <div className="rows1">
+                        <div className="rows">
                             <img
-                                className="motm-img"
-                                src={oleg_img}
+                                className="rows-img"
+                                src={oversize_img}
                             />
                             <div className="text">ЛСП</div>
                         </div>
-                        <div className="row_motm">
+                        <div className="rows">
                             <img
-                                className="motm-img"
-                                src={scripto_img}
+                                className="rows-img"
+                                src={molchi_img}
                             />
                             <div className="text">СКРИПТОНИТ</div>
                         </div>
-                        <div className="row_motm">
+                        <div className="rows">
                             <img
-                                className="motm-img"
-                                src={jizus_img}
+                                className="rows-img"
+                                src={fool_img}
                             />
                             <div className="text">ДЖИЗУС</div>
                         </div>
                     </div>
-                    <div className="chill">
-                        <div className="row_motm">
+                    <div className="rows1">
+                        <div className="rows">
                             <img
-                                className="motm-img"
-                                src={oleg_img}
+                                className="rows-img"
+                                src={my_name_lida_img}
                             />
                             <div className="text">ЛСП</div>
                         </div>
-                        <div className="row_motm">
+                        <div className="rows">
                             <img
-                                className="motm-img"
-                                src={scripto_img}
+                                className="rows-img"
+                                src={mudblood_img}
                             />
                             <div className="text">СКРИПТОНИТ</div>
                         </div>
-                        <div className="row_motm">
+                        <div className="rows">
                             <img
-                                className="motm-img"
-                                src={jizus_img}
+                                className="rows-img"
+                                src={hattori_img}
                             />
                             <div className="text">ДЖИЗУС</div>
                         </div>
