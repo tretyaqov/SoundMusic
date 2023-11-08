@@ -70,21 +70,21 @@ export default class TopCharts extends Component {
                                 className="rows-img"
                                 src={oversize_img}
                             />
-                            <div className="text">ЛСП</div>
+                            <div className="text">CMH - оверсайз</div>
                         </div>
                         <div className="rows">
                             <img
                                 className="rows-img"
                                 src={molchi_img}
                             />
-                            <div className="text">СКРИПТОНИТ</div>
+                            <div className="text">Кис-кис - Молчи</div>
                         </div>
                         <div className="rows">
                             <img
                                 className="rows-img"
                                 src={fool_img}
                             />
-                            <div className="text">ДЖИЗУС</div>
+                            <div className="text">ЛСП - Парный дурак</div>
                         </div>
                     </div>
                     <div className="rows1">
@@ -93,21 +93,21 @@ export default class TopCharts extends Component {
                                 className="rows-img"
                                 src={my_name_lida_img}
                             />
-                            <div className="text">ЛСП</div>
+                            <div className="text">Lida - МОЁ ИМЯ ЛИДА</div>
                         </div>
                         <div className="rows">
                             <img
                                 className="rows-img"
                                 src={mudblood_img}
                             />
-                            <div className="text">СКРИПТОНИТ</div>
+                            <div className="text">CMH - MUDBLOOD</div>
                         </div>
                         <div className="rows">
                             <img
                                 className="rows-img"
                                 src={hattori_img}
                             />
-                            <div className="text">ДЖИЗУС</div>
+                            <div className="text">Miyagi & Эндшпиль - HATTORI</div>
                         </div>
                     </div>
                 </div>

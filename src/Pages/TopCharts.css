@@ -91,13 +91,6 @@
     line-height: normal;
 }
 
-.rows{
-    margin-top: 36px;
-    display: flex;
-    align-items: center;
-    width: 300px;
-}
-
 .text{
     margin-left: 36px;
     color: #110F0F;
@@ -112,12 +105,21 @@
     width: 80px;
     height: 80px;
 }
+
 .flex{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1.5%;
 }
+
+.rows{
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
 .rows1 {
     margin-left: 9%;
     margin-right: 9%;
