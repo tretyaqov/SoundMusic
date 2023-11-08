@@ -1,0 +1,38 @@
+.lsp-img {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.lsp-text-name{
+    margin-left: -35px;
+    color: #232323;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.lsp-text-ispol{
+    color: #6A6A6A;
+    font-family: Noto Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.centered-home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    margin-right: 1%;
+} 
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-page{
+    margin-top: 6%;
+}

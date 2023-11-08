@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import './Genre.css'
 import { CardGroup, Container, Card, Row, Col } from "react-bootstrap";
-import rappicture from '../Components/Pictures/Darkly - pod etimi zvyozdami.png'
-import rockpicture from '../Components/Pictures/GONE fludd - dreamgarden.png'
+import rappicture from '../Components/Pictures/Genre/rap.png'
+import rockpicture from '../Components/Pictures/Genre/rock.png'
+import poppicture from '../Components/Pictures/Genre/pop.png'
+import drillpicture from '../Components/Pictures/Genre/drill.png'
+import fonkpicture from '../Components/Pictures/Genre/fonk.png'
+import dabsteppicture from '../Components/Pictures/Genre/dabstep.png'
+import classikapicture from '../Components/Pictures/Genre/classika.png'
+import djaspicture from '../Components/Pictures/Genre/djas.png'
 
 export default class Genre extends Component {
     render() {
@@ -20,30 +26,30 @@ export default class Genre extends Component {
                         />
                         <img
                             className="genre-img"
-                            src="https://via.placeholder.com/320x320"
+                            src={poppicture}
                         />
                         <img
                             className="genre-img"
-                            src="https://via.placeholder.com/320x320"
+                            src={drillpicture}
                         />
                     </div>
 
                     <div className="centered-genre">
                         <img
                             className="genre-img"
-                            src="https://via.placeholder.com/320x320"
+                            src={fonkpicture}
                         />
                         <img
                             className="genre-img"
-                            src="https://via.placeholder.com/320x320"
+                            src={dabsteppicture}
                         />
                         <img
                             className="genre-img"
-                            src="https://via.placeholder.com/320x320"
+                            src={classikapicture}
                         />
                         <img
                             className="genre-img"
-                            src="https://via.placeholder.com/320x320"
+                            src={djaspicture}
                         />
                     </div>
                 </div>
