@@ -15,7 +15,7 @@ const MusicSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    listens: Int32,
+    //listens: Int32,
 },{
     timestamps: true,
 },);

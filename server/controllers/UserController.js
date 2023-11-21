@@ -1,4 +1,4 @@
-import UserModel from '../models/User.js';                   //Подключаем модель пользователя
+import UserModel from '../models/User.js';                  //Подключаем модель пользователя
 import bcrypt from 'bcrypt';                                //Подклчение библиотеки BCrypt для шифрования пароля
 import jwt from 'jsonwebtoken';                             //Подключение библиотеки JSONWebToken, чтобы создавать токен
 import { validationResult } from 'express-validator';       //Подключение библиотеки Express Validator для проверки данных
@@ -76,7 +76,7 @@ export const login = async (req, res) => {
     } catch (err) {                                         //Если попытка авторизации пользователя не удалась
         console.log(err);
         res.status(500).json({
-            message: 'Неудалось авторизоваться'
+            message: 'Не удалось авторизоваться'
         });
     }
 };
