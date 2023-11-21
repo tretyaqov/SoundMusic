@@ -20,6 +20,13 @@ export const addMusic = async (req,res) => {
         });
         //Сохраняем музыку
         const music = await doc.save();
+
+        res.json({                                          //выдать результат
+            musicName: req.body.musicName,                  
+            musicAuthor: req.body.musicAuthor,              
+            musicIMG_URL: req.body.musicIMG_URL,            
+            musicFile_URL: req.body.musicFile_URL,
+        });
         
     } catch(err) {                                          //Если не удалось создать
         console.log(err);
