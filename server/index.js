@@ -11,6 +11,7 @@ import mongoose from 'mongoose';                            //Подключен
 import { registerValidation } from './validations/auth.js'; //Подключения формы валидации для авторизации (проверяет правильность полученной информации)
 import checkAuth from './utils/checkAuth.js';               //Подключение утилиты, проверяющей выдачу информавции о пользователе
 import {register, login, getMe} from './controllers/UserController.js'
+import { addMusic } from './controllers/musicController.js';
 
 mongoose    //Подключение базы данных
     .connect('mongodb+srv://username:12345aaa@cluster0.vya3tsu.mongodb.net/site?retryWrites=true&w=majority')   //попытка подключения
@@ -35,6 +36,9 @@ app.post('/auth/register', registerValidation, register);
 
 //Получение данных о пользователе
 app.get('/auth/me', checkAuth, getMe);
+
+//Запрос на добавление музыкальной композиции
+app.post('/music/add', addMusic);
 
 //Запуск ВЕБ-Сервера с портом 4444 (путь сайта - localhost:4444)
 app.listen(4444, (err) => {

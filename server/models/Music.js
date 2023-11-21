@@ -6,12 +6,15 @@ const MusicSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    musicAuthor: {       //Полное имя пользователя, являющийся автором музыкальной композиции
+    musicAuthor: {         //Полное имя пользователя, являющийся автором музыкальной композиции
         type: String,
         required: true,
     },
-    musicIMG_URL: String,//Ссылка на обложку музыкальной композиции
-    musicFile_URL: String,//Ссылка на файл музыкальной композиции
+    musicIMG_URL: String,  //Ссылка на обложку музыкальной композиции
+    musicFile_URL: {       //Ссылка на файл музыкальной композиции
+        type: String,
+        required: true,
+    },
     listens: Int32,
 },{
     timestamps: true,

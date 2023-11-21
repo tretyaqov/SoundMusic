@@ -95,3 +95,4 @@ export const getMe = async (req, res) => {
         res.json(userData);                                 //Выдаём данные пользователя
     } catch (err) {}
 };
+
